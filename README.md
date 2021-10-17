@@ -1,2 +1,1 @@
-# GED
- Gerenciamento Eletrônico de Documentos
+# Gerenciamento Eletrônico de Documentos
