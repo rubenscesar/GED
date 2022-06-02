@@ -1,0 +1,133 @@
+Épico: Empresa lucro real regime misto com serviço iss cumulativo, estava levando o F600 como regime não cumulativo (0) ao inves de cumulativo (1)
+Número do cartão: CH202203067842
+Ano de publicação: 2022
+Relacionamentos: Regime misto, Lucro real, Sped contribuções, Retenções 
+
+
+OBS: o Sistema só estava considerando F600 como cumulativo quando a opção no historico da empresa estava marcada como pis e cofins cumulativo, no caso do cliente não estava marcado e o cliente tem regime misto 
+Portanto agora foi feito uma alteração para gerar quando a empresa for regime misto. 
+
+
+2 estabelecimentos 
+            1: Ceara 
+			2: Bahia verificar 
+Lucro real: 
+          Regime misto (Caso do cliente)
+          Incidência tributária não-cumulativa
+		  Incidência tributária não-cumulativa e cumulativa (padrão não-cumulativa)
+ 
+ 
+Operação:
+     Saida
+
+Especie: 
+      NFSE
+      NFE 
+      CFE 
+      NFCE 	  
+	
+							 
+Relatorios: Demonstrativo de calculo 
+            Demonstrativo  com a opção Detalhar
+            Tributos federais:Retenções saidas
+			DARF 
+ 
+	
+	
+Tipos de lançamento:
+         Notas  com  serviço iss cumulativo 
+		 Notas  com  serviço iss não cumulativo 
+         Notas   com  serviço sem incidência ( Em branco vai olhar para o padrão) 
+         
+         Notas  com  Atividade  iss cumulativo 
+		 Notas  com  Atividade  iss não cumulativo 
+         Notas  com  Atividade sem incidência (em branco vai olhar para o padrão) 	
+		 
+
+
+
+
+Matriz de lançamento 1: 
+             1 Lançamento contendo  serviço iss cumulativo; atividade iss  cumulativo 
+			                                                        Resultado esperado: vai trazer  como cumulativo 
+																	
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  cumulativo
+			                                                         Resultado esperado: vai trazer  como cumulativo 
+			 
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  em branco 
+			                                                         Resultado esperado: vai trazer  como  padrão não cumulativo
+																	 
+																	 
+																	 
+																	 
+Matriz de lançamento 2: 																	 
+			1 Lançamento contendo  serviço iss não cumulativo; atividade iss  não cumulativo  
+			                                                        Resultado esperado: vai trazer  como  não cumulativo 
+																	
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  não cumulativo
+			                                                         Resultado esperado: vai trazer  como não cumulativo  
+			 
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  em branco 
+			                                                         Resultado esperado: vai trazer  como  padrão não cumulativo
+																	 
+																	 
+																	 
+																	 
+Matriz de lançamento 3:
+2 Nota contendo 3 itens:  
+1 Regime cumulativo 
+             1 Lançamento contendo  serviço iss cumulativo; atividade iss  cumulativo 
+			                                                        Resultado esperado: vai trazer  como cumulativo 
+																	
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  cumulativo
+			                                                         Resultado esperado: vai trazer  como cumulativo 
+			 
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  em branco 
+			                                                         Resultado esperado: vai trazer  como  padrão não cumulativo
+																	 
+
+
+
+																	 
+2 Regime não cumulativo 																	 
+             1 Lançamento contendo  serviço iss não cumulativo; atividade iss  não cumulativo  
+			                                                        Resultado esperado: vai trazer  como  não cumulativo 
+																	
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  não cumulativo
+			                                                         Resultado esperado: vai trazer  como não cumulativo  
+			 
+			 1 Lançamento contendo  serviço iss  em branco; atividade iss  em branco 
+			                                                         Resultado esperado: vai trazer  como  padrão não cumulativo																	 
+																	 
+																	 
+																	 
+																	 
+																	 
+																	 
+																	 
+																	 														 
+																	 
+			                                                  
+			 
+			                       
+			 
+
+		 
+		 		 
+		 
+		 
+		 
+		 
+		 
+
+
+								 
+								 
+								 
+								 
+								 
+								 
+								 
+								 
+								 
+				
