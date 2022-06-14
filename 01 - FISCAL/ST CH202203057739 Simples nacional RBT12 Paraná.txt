@@ -1,0 +1,65 @@
+Epico: Base do ICMS no demonstrativo de calculo estava apresentando errado quando a receita dos ultimos 12 meses ultrapassava o limite de insenção no Estado do Parana 
+Cartão: CH202203057739
+
+DECRETO N.º 7.871, de 29.9.2017
+Art. 3.º Ficam isentas do pagamento do Imposto sobre Operações
+relativas à Circulação de Mercadorias e sobre Prestações de Serviços de
+Transporte Interestadual e Intermunicipal e de Comunicação - ICMS as
+empresas estabelecidas neste Estado e enquadradas no Simples Nacional,
+instituído pela Lei Complementar n. 123, de 14 de dezembro de 2006,
+relativamente à faixa de receita bruta, acumulada nos 12 (doze) meses
+anteriores ao do período de apuração, igual ou inferior a R$ 360.000,00
+(trezentos e sessenta mil reais) (art. 2º da Lei n. 15.562, de 4 de julho de
+2007).
+
+
+Atividades
+      3 Estabelecimentos (2 no parana 1 ceara) 
+		Firebird
+		 Regime de Tributação Federal - Simples Nacional
+			Regime de Tributação Estadual - Simples Nacional
+				Regime de competência
+					Regime de caixa
+						Informando itens
+						Sem informar itens
+							Receita no Mercado Interno
+							Receita no Mercado Externo
+					
+					
+Inferior a 360.000,00
+Atigindo a faixa de 360.000,00
+Superior a 360.000,00
+							
+Lançamentos
+		Espécies:
+				NF-e
+				NFC-e
+				Situação:
+				Normal
+				notas:
+				Marcado Substituição Tributária em ICMS
+				Marcado Tributação Monofásica em COFINS, PIS
+				Marcado Substituição Tributária em ICMS e Tributação Monofásica em COFINS, PIS
+				Notas sem substituição e tributação monofasica 
+				
+				
+Empresa cuja data de abertura for 01º mês do ano 
+Empresa cuja data de abertura for 11º mês do ano 
+Empresa cuja data de abertura seja um período aleatório entre 5º e 6º mês do ano 
+Empresa cuja data de abertura for = (PA - 12 meses)
+Empresa cuja data de abertura for = (PA - 13 meses)	
+
+
+								
+Relatório
+		Espelho PGDAS
+		Acompanhamento Tributário
+		Demonstrativo de calculo 
+		
+Testar em Base de pendências passadas							
+									
+
+			
+			
+			
+			
